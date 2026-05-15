@@ -40,11 +40,14 @@ from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText, TextIteratorStreamer
 
 torch.set_num_threads(os.cpu_count() or 1)
+CPU_ONLY = not torch.cuda.is_available()
 
 MEDGEMMA_MODEL = "google/medgemma-4b-it"      # smallest multimodal MedGemma
 COLPALI_MODEL = "vidore/colpali-v1.3"          # canonical ColPali (PaliGemma-based)
-DEFAULT_ADAPTER = "checkpoints/medgemma-cxr-lora"
 COLPALI_ADAPTER = "checkpoints/colpali-cxr-lora"
+
+QA_CORPUS_PATH = "generated_questions_answers_0-24.csv"
+RAG_TOP_K = 5
 
 GEN_PROMPT = (
     "You are a radiologist. Examine the chest X-ray and write a concise "
@@ -84,18 +87,15 @@ st.set_page_config(page_title="CXR Report", layout="wide")
 
 
 @st.cache_resource(show_spinner="Loading MedGemma...")
-def load_medgemma(adapter_path: str | None):
+def load_medgemma():
     processor = AutoProcessor.from_pretrained(MEDGEMMA_MODEL)
     model = AutoModelForImageTextToText.from_pretrained(
         MEDGEMMA_MODEL,
-        dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
+        torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
         device_map="auto" if torch.cuda.is_available() else None,
         low_cpu_mem_usage=True,
         attn_implementation="sdpa",
     )
-    if adapter_path and Path(adapter_path).exists():
-        from peft import PeftModel
-        model = PeftModel.from_pretrained(model, adapter_path)
     model.eval()
     return processor, model
 
@@ -119,6 +119,36 @@ def embed_candidates(_processor, _model, model_id: str, findings: tuple):
     inputs = _processor.process_queries(list(findings)).to(_model.device)
     with torch.inference_mode():
         return _model(**inputs)
+
+
+@st.cache_resource(show_spinner="Indexing reference Q/A corpus...")
+def load_qa_corpus(path: str = QA_CORPUS_PATH):
+    import pandas as pd
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    df = pd.read_csv(path)
+    df = df[df["answer"].astype(str).str.lower() != "error"].reset_index(drop=True)
+    docs = df["question"].astype(str).tolist()
+    vectorizer = TfidfVectorizer(lowercase=True, token_pattern=r"[a-z]+")
+    tfidf = vectorizer.fit_transform(docs)
+    return df, vectorizer, tfidf
+
+
+def retrieve_qa_pairs(query: str, top_k: int = RAG_TOP_K) -> list[dict]:
+    from sklearn.metrics.pairwise import cosine_similarity
+    df, vectorizer, tfidf = load_qa_corpus()
+    qv = vectorizer.transform([query])
+    sims = cosine_similarity(qv, tfidf)[0]
+    order = np.argsort(sims)[::-1][:top_k]
+    out = []
+    for rank_i in order:
+        row = df.iloc[int(rank_i)]
+        out.append({
+            "question": row["question"],
+            "answer": row["answer"],
+            "label": row["question_label"],
+            "score": float(sims[rank_i]),
+        })
+    return out
 
 
 def _medgemma_stream(processor, model, messages: list, max_new_tokens: int, temperature: float):
@@ -155,11 +185,7 @@ def _medgemma_stream(processor, model, messages: list, max_new_tokens: int, temp
     thread.join()
 
 
-def _medgemma_run(processor, model, messages: list, max_new_tokens: int, temperature: float) -> str:
-    return "".join(_medgemma_stream(processor, model, messages, max_new_tokens, temperature))
-
-
-def medgemma_generate(processor, model, image: Image.Image, max_new_tokens: int, temperature: float) -> str:
+def medgemma_generate_stream(processor, model, image: Image.Image, max_new_tokens: int, temperature: float):
     messages = [{
         "role": "user",
         "content": [
@@ -167,7 +193,24 @@ def medgemma_generate(processor, model, image: Image.Image, max_new_tokens: int,
             {"type": "text", "text": GEN_PROMPT},
         ],
     }]
-    return _medgemma_run(processor, model, messages, max_new_tokens, temperature)
+    yield from _medgemma_stream(processor, model, messages, max_new_tokens, temperature)
+
+
+DESCRIBE_PROMPT = (
+    "Briefly describe what is visible in this chest X-ray in 2-3 sentences. "
+    "Mention any obvious findings or note that the image appears normal."
+)
+
+
+def medgemma_describe(processor, model, image: Image.Image) -> str:
+    messages = [{
+        "role": "user",
+        "content": [
+            {"type": "image", "image": image},
+            {"type": "text", "text": DESCRIBE_PROMPT},
+        ],
+    }]
+    return "".join(_medgemma_stream(processor, model, messages, max_new_tokens=96, temperature=0.0))
 
 
 def medgemma_chat(
@@ -297,6 +340,53 @@ GROQ_QA_SYSTEM_PROMPT = (
     "answer. Do not fabricate findings that are not supported by what is visible."
 )
 
+RAG_QA_SYSTEM_PROMPT = (
+    "You are a radiologist answering a question about a chest X-ray. "
+    "You will be shown the image (or a saliency-highlighted version of it), "
+    "a brief image-side description from a separate model, and a few "
+    "reference question/answer pairs from a labelled corpus that resemble "
+    "the user's question. Use the image as the primary evidence. Treat the "
+    "reference pairs as style and phrasing examples — not as ground truth "
+    "for the current image. Answer concisely and directly. If the image "
+    "does not show enough detail to answer confidently, say so."
+)
+
+
+def rag_qa_answer(
+    image: Image.Image,
+    question: str,
+    image_context: str,
+    retrieved: list[dict],
+    groq_model_id: str,
+) -> str:
+    from groq import Groq
+    buf = io.BytesIO()
+    image.save(buf, format="PNG")
+    data_uri = f"data:image/png;base64,{base64.b64encode(buf.getvalue()).decode()}"
+    refs = "\n".join(
+        f"- Q: {r['question']}\n  A: {r['answer']}  [label: {r['label']}, score {r['score']:.2f}]"
+        for r in retrieved
+    )
+    user_text = (
+        f"Image-side context:\n{image_context}\n\n"
+        f"Reference Q/A pairs (top {len(retrieved)} by TF-IDF over a labelled corpus):\n{refs}\n\n"
+        f"Question: {question}"
+    )
+    client = Groq()
+    resp = client.chat.completions.create(
+        model=groq_model_id,
+        messages=[
+            {"role": "system", "content": RAG_QA_SYSTEM_PROMPT},
+            {"role": "user", "content": [
+                {"type": "text", "text": user_text},
+                {"type": "image_url", "image_url": {"url": data_uri}},
+            ]},
+        ],
+        temperature=0.2,
+    )
+    return resp.choices[0].message.content.strip()
+
+
 GROQ_SYSTEM_PROMPT = (
     "You are a radiologist. Given a ranked list of candidate findings retrieved "
     "from a chest X-ray by an image-text retrieval model (each with a relevance "
@@ -328,13 +418,11 @@ def main() -> None:
 
     with st.sidebar:
         st.header("Settings")
-        backend = st.radio("Report backend", ["MedGemma (generative)", "ColPali (retrieval)"])
+        backend = st.radio("Backend", ["MedGemma (generative)", "ColPali (retrieval)"])
         st.markdown("---")
 
         with st.expander("MedGemma", expanded=backend.startswith("MedGemma")):
-            adapter = st.text_input("LoRA adapter path", value=DEFAULT_ADAPTER)
-            use_adapter = st.checkbox("Use fine-tuned adapter", value=Path(adapter).exists())
-            max_new = st.slider("Max new tokens", 64, 1024, 512, step=32)
+            max_new = st.slider("Max new tokens", 64, 1024, 256, step=32)
             temperature = st.slider("Temperature (0 = greedy)", 0.0, 1.5, 0.0, step=0.05)
 
         with st.expander("ColPali", expanded=not backend.startswith("MedGemma")):
@@ -370,115 +458,140 @@ def main() -> None:
         st.markdown("---")
         st.caption("Outputs are not a substitute for clinical judgement.")
 
-    # Resolved once here so both tabs call load_* with identical arguments,
-    # hitting the same @st.cache_resource entry and sharing the loaded model.
     colpali_adapter_path = COLPALI_ADAPTER if use_colpali_adapter else None
-    medgemma_adapter_path = adapter if use_adapter else None
+
+    # Uploader above the tabs — shared by both Report and QA.
+    uploaded = st.file_uploader("Upload a chest X-ray", type=["png", "jpg", "jpeg"])
+    if uploaded is not None:
+        image = Image.open(uploaded).convert("RGB")
+        if st.session_state.get("xray_name") != uploaded.name:
+            st.session_state["xray_image"] = image
+            st.session_state["xray_name"] = uploaded.name
+            st.session_state["qa_history"] = []
+            st.session_state.pop("xray_description", None)
+            st.session_state.pop("xray_description_for", None)
+        st.image(image, caption=uploaded.name, width=320)
+    else:
+        st.info("Upload a chest X-ray image to begin.")
 
     tab_report, tab_qa = st.tabs(["Report", "QA"])
 
     with tab_report:
-        uploaded = st.file_uploader("Upload a chest X-ray", type=["png", "jpg", "jpeg"])
-        col_img, col_out = st.columns(2)
-
-        if uploaded is None:
-            col_img.info("Upload a chest X-ray image to begin.")
-        else:
-            image = Image.open(uploaded).convert("RGB")
-            if st.session_state.get("xray_name") != uploaded.name:
-                st.session_state["xray_image"] = image
-                st.session_state["xray_name"] = uploaded.name
-                st.session_state["qa_history"] = []
-            col_img.image(image, caption=uploaded.name, width='stretch')
-
-            if col_out.button("Generate report", type="primary"):
-                if backend.startswith("MedGemma"):
-                    processor, model = load_medgemma(medgemma_adapter_path)
-                    with st.spinner("Generating report..."):
-                        report = medgemma_generate(processor, model, image, max_new, temperature)
+        image = st.session_state.get("xray_image")
+        if image is None:
+            st.info("Upload an image above to generate a report.")
+        elif st.button("Generate report", type="primary"):
+            report = ""
+            retrieval_to_show = None
+            if backend.startswith("MedGemma"):
+                processor, model = load_medgemma()
+                st.subheader("Generated report")
+                with st.spinner("Generating report..."):
+                    report = st.write_stream(
+                        medgemma_generate_stream(processor, model, image, max_new, temperature)
+                    )
+            else:
+                processor, model = load_colpali(colpali_id, colpali_adapter_path)
+                with st.spinner("Scoring findings..."):
+                    ranked = colpali_rank(processor, model, colpali_id, image, top_k)
+                retrieved = format_retrieval(ranked)
+                if use_groq:
+                    with st.spinner(f"Synthesizing with Groq ({groq_model})..."):
+                        try:
+                            report = synthesize_with_groq(ranked, groq_model)
+                            if show_retrieval:
+                                retrieval_to_show = retrieved
+                        except Exception as e:
+                            st.warning(f"Groq synthesis failed: {e}. Falling back to retrieved findings.")
+                            report = retrieved
                 else:
-                    processor, model = load_colpali(colpali_id, colpali_adapter_path)
-                    with st.spinner("Scoring findings..."):
-                        ranked = colpali_rank(processor, model, colpali_id, image, top_k)
-                    retrieved = format_retrieval(ranked)
-                    retrieval_to_show: str | None = None
-                    if use_groq:
-                        with st.spinner(f"Synthesizing with Groq ({groq_model})..."):
-                            try:
-                                report = synthesize_with_groq(ranked, groq_model)
-                                if show_retrieval:
-                                    retrieval_to_show = retrieved
-                            except Exception as e:
-                                st.warning(f"Groq synthesis failed: {e}. Falling back to retrieved findings.")
-                                report = retrieved
-                    else:
-                        report = retrieved
-
-                col_out.subheader("Generated report")
-                col_out.write(report)
+                    report = retrieved
+                st.subheader("Generated report")
+                st.write(report)
                 if retrieval_to_show is not None:
-                    with col_out.expander("Retrieved findings (ColPali)"):
+                    with st.expander("Retrieved findings (ColPali)"):
                         st.write(retrieval_to_show)
-                col_out.download_button(
-                    "Download as .txt",
-                    data=report,
-                    file_name=f"{Path(uploaded.name).stem}_report.txt",
-                )
+
+            st.download_button(
+                "Download as .txt",
+                data=report,
+                file_name=f"{Path(st.session_state['xray_name']).stem}_report.txt",
+            )
 
     with tab_qa:
-        qa_backend = st.radio("QA backend", ["MedGemma", "ColPali"], horizontal=True, key="qa_backend")
-
-        if qa_backend == "ColPali" and not groq_available:
-            st.warning("GROQ_API_KEY not set — ColPali QA requires Groq. Add it to .env.")
-
-        qa_image = st.session_state.get("xray_image")
-        if qa_image is None:
-            st.info("Upload a chest X-ray in the Report tab first.")
+        if not groq_available:
+            st.warning("GROQ_API_KEY not set — QA requires Groq. Add it to .env.")
         else:
-            col_thumb, col_btn = st.columns([1, 5])
-            col_thumb.image(qa_image, width=120, caption=st.session_state.get("xray_name", ""))
-            if col_btn.button("Clear chat", key="qa_clear"):
-                st.session_state["qa_history"] = []
+            qa_image = st.session_state.get("xray_image")
+            if qa_image is None:
+                st.info("Upload an image above to begin.")
+            else:
+                if st.button("Clear chat", key="qa_clear"):
+                    st.session_state["qa_history"] = []
 
-            qa_history: list[dict] = st.session_state.setdefault("qa_history", [])
+                qa_history: list[dict] = st.session_state.setdefault("qa_history", [])
 
-            for turn in qa_history:
-                with st.chat_message(turn["role"]):
-                    if turn.get("image") is not None:
-                        st.image(turn["image"], use_container_width=True)
-                    st.write(turn["text"])
+                for turn in qa_history:
+                    with st.chat_message(turn["role"]):
+                        if turn.get("image") is not None:
+                            st.image(turn["image"], width="stretch")
+                        st.write(turn["text"])
+                        if turn.get("retrieved"):
+                            with st.expander("Retrieved reference Q/A pairs"):
+                                for r in turn["retrieved"]:
+                                    st.markdown(
+                                        f"**Q:** {r['question']}  \n"
+                                        f"**A:** {r['answer']}  \n"
+                                        f"_Label: {r['label']} — score {r['score']:.2f}_"
+                                    )
 
-            prompt = st.chat_input("Ask a question about this X-ray")
-            if prompt:
-                if qa_backend == "ColPali":
-                    if not groq_available:
-                        st.warning("Cannot run ColPali QA without GROQ_API_KEY.")
-                    else:
-                        qa_history.append({"role": "user", "text": prompt})
-                        with st.chat_message("user"):
-                            st.write(prompt)
-                        with st.spinner("Retrieving important patches and answering..."):
-                            cp_processor, cp_model = load_colpali(colpali_id, colpali_adapter_path)
-                            overlay, answer = colpali_qa(
-                                cp_processor, cp_model, qa_image, prompt, groq_model
-                            )
-                        with st.chat_message("assistant"):
-                            st.image(overlay, use_container_width=True)
-                            st.write(answer)
-                        qa_history.append({"role": "assistant", "text": answer, "image": overlay})
-                else:
+                prompt = st.chat_input("Ask a question about this X-ray")
+                if prompt:
                     qa_history.append({"role": "user", "text": prompt})
                     with st.chat_message("user"):
                         st.write(prompt)
-                    processor, model = load_medgemma(medgemma_adapter_path)
+
+                    if backend.startswith("ColPali"):
+                        with st.spinner("Retrieving saliency patches and ranking findings..."):
+                            cp_processor, cp_model = load_colpali(colpali_id, colpali_adapter_path)
+                            ranked = colpali_rank(cp_processor, cp_model, colpali_id, qa_image, top_k)
+                            saliency = colpali_similarity_map(cp_processor, cp_model, qa_image, prompt)
+                            overlay = heatmap_overlay(qa_image, saliency)
+                        image_for_llm = overlay
+                        image_context = format_retrieval(ranked)
+                    else:
+                        if st.session_state.get("xray_description_for") != st.session_state.get("xray_name"):
+                            with st.spinner("Generating image description (runs once per image)..."):
+                                mg_processor, mg_model = load_medgemma()
+                                desc = medgemma_describe(mg_processor, mg_model, qa_image)
+                            st.session_state["xray_description"] = desc
+                            st.session_state["xray_description_for"] = st.session_state.get("xray_name")
+                        image_for_llm = qa_image
+                        image_context = st.session_state["xray_description"]
+
+                    with st.spinner("Retrieving reference Q/A pairs..."):
+                        retrieved = retrieve_qa_pairs(prompt)
+                    with st.spinner(f"Answering with Groq ({groq_model})..."):
+                        answer = rag_qa_answer(image_for_llm, prompt, image_context, retrieved, groq_model)
+
                     with st.chat_message("assistant"):
-                        answer = st.write_stream(
-                            medgemma_chat(
-                                processor, model, qa_image, qa_history,
-                                max_new, temperature,
-                            )
-                        )
-                    qa_history.append({"role": "assistant", "text": answer})
+                        if backend.startswith("ColPali"):
+                            st.image(overlay, width="stretch")
+                        st.write(answer)
+                        with st.expander("Retrieved reference Q/A pairs"):
+                            for r in retrieved:
+                                st.markdown(
+                                    f"**Q:** {r['question']}  \n"
+                                    f"**A:** {r['answer']}  \n"
+                                    f"_Label: {r['label']} — score {r['score']:.2f}_"
+                                )
+
+                    qa_history.append({
+                        "role": "assistant",
+                        "text": answer,
+                        "image": overlay if backend.startswith("ColPali") else None,
+                        "retrieved": retrieved,
+                    })
 
 
 if __name__ == "__main__":

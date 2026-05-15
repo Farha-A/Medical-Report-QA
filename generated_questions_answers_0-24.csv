@@ -1,0 +1,749 @@
+index,patient_id,study_id,question,answer,question_label,question_value,image_path,view_position
+0,p00001,s00001,Is Consolidation observed?,No focal consolidation is observed.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Can Consolidation be identified?,No focal consolidation is observed.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there signs of Consolidation?,No focal consolidation is observed in the radiograph.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,What evidence of Consolidation is visible?,There is no focal consolidation visible.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Does the image indicate Consolidation?,No focal consolidation is observed in the radiograph.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there indications of Consolidation?,No focal consolidation is observed.,Consolidation,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Is Edema observed?,No pulmonary edema is observed.,Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Can Edema be detected?,No pulmonary edema is seen.,Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there signs of Edema?,No signs of pulmonary edema are observed.,Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,What evidence of Edema is present?,No pulmonary edema is observed.,Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Does the image suggest Edema?,No pulmonary edema is observed.,Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there indications of Edema?,"No, there is no pulmonary edema as seen in the radiograph.",Edema,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there any findings?,error,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Is there any findings in the image?,error,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Can any abnormalities be detected?,The radiograph does not show any abnormalities.,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there indications of findings in the image?,error,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there any abnormalities present?,The radiograph shows a normal cardiac silhouette and mediastinum size. There is no pulmonary edema. There is no focal consolidation. There is no evidence of a pleural effusion. There is no pneumothorax. The chest x-ray appears normal.,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Do you see any findings in the image?,error,No Finding,1.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Is Pleural Effusion present?,There are no signs of a pleural effusion observed in the radiograph.,Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Can Pleural Effusion be detected?,error,Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there signs of Pleural Effusion?,There are no signs of a pleural effusion as seen in the radiograph.,Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,What evidence of Pleural Effusion is visible?,There are no XXXX of a pleural effusion visible.,Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Does the image suggest Pleural Effusion?,"No, a pleural effusion is not observed in the radiograph.",Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there indications of Pleural Effusion?,There are no indications of a pleural effusion.,Pleural Effusion,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Is Pneumothorax present?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Can Pneumothorax be detected?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there signs of Pneumothorax?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,What evidence of Pneumothorax is visible?,There is no evidence of pneumothorax visible.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Does the image suggest Pneumothorax?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there indications of Pneumothorax?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Is the Cardiomedistinum abnormal in size?,error,Enlarged Cardiomediastinum,,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Does the patient have Atelectasis?,error,Atelectasis,,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,Are there signs of an enlarged Cardiomedistinum?,The cardiac silhouette and mediastinum size are within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+0,p00001,s00001,What suggests a Lung Lesion in the findings?,error,Lung Lesion,,files/p00001/s00001/1_IM-0001-4001.dcm.png,Frontal
+1,p00002,s00002,Is Cardiomegaly present?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Can Cardiomegaly be detected?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Are there signs of Cardiomegaly?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,What suggests cardiomegaly in the findings?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Is there evidence of Cardiomegaly?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Does the image show Cardiomegaly?,Borderline cardiomegaly is observed.,Cardiomegaly,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Which Support Devices are found?,A midline sternotomy device is observed.,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,What types of support devices are present?,A midline sternotomy plate is observed.,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Which support devices can be identified?,A midline sternotomy device is visible.,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Are there any support devices observed?,No support devices are observed.,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,What support devices are detected?,A midline sternotomy device is observed. ,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Can any support devices be found?,A midline sternotomy plate is observed.,Support Devices,1.0,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Is Lung Opacity present?,Clear lungs are observed.,Lung Opacity,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Are there signs of a Fracture?,"No acute pulmonary findings are observed, and the lungs are clear. There is no indication of a fracture in the provided radiograph.",Fracture,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Can an enlarged Cardiomedistinum be detected?,error,Enlarged Cardiomediastinum,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Are there unusual Pleural findings?,No unusual pleural findings are observed.,Pleural Other,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Does the image indicate Lung Opacity?,"No, the lungs are clear.",Lung Opacity,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,What evidence of Lung Opacity is visible?,Clear lungs are observed.,Lung Opacity,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Are there indications of Pneumothorax?,"No acute pulmonary findings are observed, and the lungs appear clear.",Pneumothorax,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+1,p00002,s00002,Is a Lung Lesion observed?,Clear lungs are observed.,Lung Lesion,,files/p00002/s00002/2_IM-0652-1001.dcm.png,Frontal
+2,p00003,s00003,Is a Fracture visible?,No displaced rib fractures are identified.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Can a Fracture be identified?,No displaced rib fractures are identified.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there signs of a Fracture?,No displaced rib fractures are identified in the radiograph.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,What evidence of a Fracture is present?,No displaced rib fractures are identified in the radiograph.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Does the image indicate a Fracture?,No displaced rib fractures are identified in the image.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there indications of a Fracture?,No displaced rib fractures are identified as seen in the radiograph.,Fracture,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there any findings?,"No displaced rib fractures, pneumothorax, or pleural effusion are seen. The lungs appear well-expanded and clear. The mediastinal contour is within normal limits, and no acute cardiopulmonary abnormality is identified.",No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Is there any findings in the image?,Well-expanded and clear lungs are observed. Mediastinal contour is within normal limits. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Can any abnormalities be detected?,Clear lungs are observed. Mediastinal contour appears within normal limits. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there indications of findings in the image?,"No findings of rib fractures, pneumothorax, or pleural effusion are observed. The lungs appear well-expanded and clear. The mediastinal contour is within normal limits. No acute cardiopulmonary abnormalities are identified.",No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there any abnormalities present?,"The lungs are well-expanded and clear, demonstrating no acute cardiopulmonary abnormality. The mediastinal contour is within normal limits, and no pneumothorax, pleural effusion, or displaced rib fractures are observed.",No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Do you see any findings in the image?,Well-expanded and clear lungs are observed. The mediastinal contour is within normal limits. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Is Pleural Effusion present?,No Pleural Effusion is observed.,Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Can Pleural Effusion be detected?,No pleural effusion is identified.,Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there signs of Pleural Effusion?,"No signs of Pleural Effusion are observed. The lungs appear well-expanded and clear, and no pleural effusion is identified.",Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,What evidence of Pleural Effusion is visible?,No pleural effusion is identified.,Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Does the image suggest Pleural Effusion?,No Pleural Effusion is identified. The lungs are well-expanded and clear.,Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there indications of Pleural Effusion?,No pleural effusion is identified.,Pleural Effusion,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Is Pneumothorax present?,No pneumothorax is identified.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Can Pneumothorax be detected?,No pneumothorax is identified.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there signs of Pneumothorax?,No pneumothorax is identified in the radiograph.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,What evidence of Pneumothorax is visible?,No pneumothorax is identified.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Does the image suggest Pneumothorax?,No pneumothorax is identified.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there indications of Pneumothorax?,No pneumothorax is identified.,Pneumothorax,0.0,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Is the Cardiomedistinum abnormal in size?,The mediastinal contour is within normal limits.,Enlarged Cardiomediastinum,,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Are there unusual Pleural findings?,"No unusual pleural findings are observed. The lungs are well-expanded and clear, and no pleural effusion is identified.",Pleural Other,,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,What support devices are detected?,No support devices are detected.,Support Devices,,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+2,p00003,s00003,Can Consolidation be identified?,No consolidation is identified in the lungs.,Consolidation,,files/p00003/s00003/3_IM-1384-1001.dcm.png,Frontal
+3,p00004,s00004,Is Lung Opacity present?,Diffuse bilateral interstitial and alveolar opacities are observed consistent with chronic obstructive lung disease and bullous emphysema.,Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Can Lung Opacity be identified?,"Diffuse bilateral interstitial and alveolar opacities are observed, consistent with chronic obstructive lung disease and bullous emphysema. Irregular opacities are seen in the left lung apex, which could represent a cavitary lesion, and streaky opacities are observed in the right upper lobe, which demonstrate XXXX scarring.",Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there signs of Lung Opacity?,"Opacity is observed in the bilateral upper lobes, demonstrating diffuse bilateral interstitial and alveolar opacities consistent with chronic obstructive lung disease and bullous emphysema. Additionally, there are irregular opacities in the left lung apex, which could represent a cavitary lesion. Streaky opacities are seen in the right upper lobe, consistent with scarring.",Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What evidence of Lung Opacity is visible?,"Diffuse bilateral interstitial and alveolar opacities are observed. Irregular opacities are seen in the left lung apex. Streaky opacities are observed in the right upper lobe, with scarring noted.",Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Does the image indicate Lung Opacity?,"Opacity is observed in the bilateral interstitial and alveolar regions consistent with chronic obstructive lung disease and bullous emphysema. Additionally, irregular opacities are seen in the left lung apex, and streaky opacities are observed in the right upper lobe, which could represent scarring.",Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there indications of Lung Opacity?,Diffuse bilateral interstitial and alveolar opacities are observed. Irregular opacities in the left lung apex could represent a cavitary lesion. Streaky opacities in the right upper lobe demonstrate scarring.,Lung Opacity,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Is Pleural Effusion present?,There is no large pleural effusion.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Can Pleural Effusion be detected?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there signs of Pleural Effusion?,There is no large pleural effusion observed in the radiograph.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What evidence of Pleural Effusion is visible?,No large pleural effusion is visible.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Does the image suggest Pleural Effusion?,There is no large pleural effusion observed in the image.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there indications of Pleural Effusion?,No pneumothorax or large pleural effusion is observed.,Pleural Effusion,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Can Pneumothorax be detected?,No pneumothorax is observed in the radiograph.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What evidence of Pneumothorax is visible?,There is no pneumothorax visible.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Which Support Devices are found?,error,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What types of support devices are present?,error,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Which support devices can be identified?,error,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there any support devices observed?,No support devices are observed.,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What support devices are detected?,No support devices are detected.,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Can any support devices be found?,No support devices are observed.,Support Devices,1.0,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Is there any Pleural abnormality?,There is no pneumothorax or large pleural effusion observed in the radiograph.,Pleural Other,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there signs of Consolidation?,"Diffuse bilateral interstitial and alveolar opacities are observed, consistent with chronic obstructive lung disease and bullous emphysema. Alveolar opacities are present, indicating an area of the lung where the airspaces are filled with a substance, potentially representing consolidation. However, the opacities are described as diffuse and bilateral, rather than localized or focal, which may indicate a different underlying process.",Consolidation,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there indications of Edema?,No indications of edema are observed.,Edema,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Can Pneumonia be detected?,"Pneumonia is not detected. The radiograph shows diffuse bilateral interstitial and alveolar opacities consistent with chronic obstructive lung disease and bullous emphysema. There are no focal opacities or consolidations typical of pneumonia. However, there are irregular opacities in the left lung apex that could represent a cavitary lesion, and streaky opacities in the right upper lobe that could represent scarring. The cardiomediastinal silhouette is normal in size and contour, and there is no pneumothorax or large pleural effusion.",Pneumonia,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there indications of an enlarged Cardiomedistinum?,The cardiomediastinal silhouette is normal in size and contour.,Enlarged Cardiomediastinum,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,Are there signs of Pleural conditions?,There is no pneumothorax or large pleural effusion.,Pleural Other,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What suggests an enlarged Cardiomedistinum?,The cardiomediastinal silhouette is normal in size and contour.,Enlarged Cardiomediastinum,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+3,p00004,s00004,What evidence of Consolidation is visible?,Alveolar opacities consistent with consolidation are observed.,Consolidation,,files/p00004/s00004/4_IM-2050-2001.dcm.png,Lateral
+4,p00005,s00005,Is Consolidation observed?,No focal areas of consolidation are seen.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can Consolidation be identified?,There are no focal areas of consolidation.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there signs of Consolidation?,There are no focal areas of consolidation as seen in the radiograph.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What evidence of Consolidation is visible?,There are no focal areas of consolidation visible.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Does the image indicate Consolidation?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there indications of Consolidation?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there any findings?,The lungs demonstrate mildly hyperexpanded lungs. Small T-spine osteophytes are observed. Cholecystectomy clips are present. Biapical pleural thickening is seen.,No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is there any findings in the image?,"The image shows cholecystectomy clips, small T-spine osteophytes, biapical pleural thickening, and mildly hyperexpanded lungs. Additionally, the lungs are mildly hyperexpanded.",No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can any abnormalities be detected?,Biapical pleural thickening is observed. Small T-spine osteophytes are seen. Cholecystectomy clips are present.,No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there indications of findings in the image?,"The image shows biapical pleural thickening, mildly hyperexpanded lungs, small T-spine osteophytes, and cholecystectomy clips are present. These findings are observed in the radiograph.",No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there any abnormalities present?,Biapical pleural thickening and mildly hyperexpanded lungs are observed.,No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Do you see any findings in the image?,The lungs appear mildly hyperexpanded. Cholecystectomy clips are observed. Small T-spine osteophytes are visible. Biapical pleural thickening is seen.,No Finding,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there signs of Pleural Effusion?,No pleural effusion is observed. The radiograph shows no evidence of fluid collection in the pleural spaces.,Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Does the image suggest Pleural Effusion?,"No, there is no pleural effusion as seen in the radiograph.",Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there indications of Pleural Effusion?,No pleural effusion is observed. The report states there is no pleural effusion.,Pleural Effusion,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is there any Pleural abnormality?,Biapical pleural thickening is observed.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can Pleural findings be identified?,Biapical pleural thickening is observed.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there signs of Pleural conditions?,Biapical pleural thickening is observed.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What Pleural abnormalities are present?,Biapical pleural thickening is observed.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there unusual Pleural findings?,Biapical pleural thickening is observed.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Does the image suggest any Pleural conditions?,Biapical pleural thickening is observed as seen in the radiograph.,Pleural Other,1.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What evidence of Pneumothorax is visible?,No evidence of pneumothorax is visible.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Which Support Devices are found?,Cholecystectomy clips are present.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What types of support devices are present?,Cholecystectomy clips are observed.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Which support devices can be identified?,Cholecystectomy clips are visible.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there any support devices observed?,No support devices are observed.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What support devices are detected?,Cholecystectomy clips are present.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Can any support devices be found?,Cholecystectomy clips are present.,Support Devices,0.0,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What evidence of Pneumonia is present?,There is no evidence of pneumonia present.,Pneumonia,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,What suggests an enlarged Cardiomedistinum?,The cardiomediastinal silhouette is within normal limits.,Enlarged Cardiomediastinum,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is the Cardiomedistinum enlarged?,The cardiomediastinal silhouette is within normal limits.,Enlarged Cardiomediastinum,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is there evidence of a Lung Lesion?,No focal areas of consolidation are observed in the radiograph.,Lung Lesion,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is there evidence of Cardiomegaly?,"The cardiomediastinal silhouette appears within normal limits, showing no evidence of cardiomegaly.",Cardiomegaly,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is Pneumonia observed?,No focal areas of consolidation are seen.,Pneumonia,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Is Atelectasis observed?,No atelectasis is observed. The pulmonary vasculature appears within normal limits.,Atelectasis,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+4,p00005,s00005,Are there signs of Lung Opacity?,"Lung opacities are not observed in the radiograph. The lungs appear mildly hyperexpanded, and there are no focal areas of consolidation. The cardiomediastinal silhouette and pulmonary vasculature are within normal limits.",Lung Opacity,,files/p00005/s00005/5_IM-2117-1003002.dcm.png,Frontal
+5,p00006,s00006,Is Consolidation observed?,No focal airspace consolidation is seen.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can consolidation be identified?,No focal airspace consolidation is seen in the radiograph.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of Consolidation?,No focal airspace consolidation is observed.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,What evidence of Consolidation is visible?,No focal airspace consolidation is observed.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the image indicate Consolidation?,No focal airspace consolidation is observed in the radiograph.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of Consolidation?,No focal airspace consolidation is observed in the radiograph.,Consolidation,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is Lung Opacity present?,No lung opacity is observed.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can Lung Opacity be identified?,No lung opacity is observed.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of Lung Opacity?,No focal airspace consolidation or suspicious pulmonary opacity is observed.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,What evidence of Lung Opacity is visible?,No suspicious pulmonary opacity is observed.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the image indicate Lung Opacity?,No lung opacity is observed in the radiograph.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of Lung Opacity?,No suspicious pulmonary opacity is observed.,Lung Opacity,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there any findings?,Mild degenerative change of the thoracic spine is observed.,No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is there any findings in the image?,The heart size and mediastinal contour are within normal limits. There is no focal airspace consolidation or suspicious pulmonary opacity. No pneumothorax or large pleural effusion. Mild degenerative change of the thoracic spine is observed. No acute cardiopulmonary findings are identified.,No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can any abnormalities be detected?,Mild degenerative change of the thoracic spine is observed.,No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of findings in the image?,"The image shows no focal airspace consolidation or suspicious pulmonary opacity, indicating no acute infection. Additionally, there is no pneumothorax or large pleural effusion, which further suggests that there are no indications of infection in the image.",No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there any abnormalities present?,Mild degenerative change of the thoracic spine is observed. No other abnormalities are seen in the radiograph.,No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Do you see any findings in the image?,The heart size and mediastinal contour appear within normal limits. No focal airspace consolidation or suspicious pulmonary opacity is observed. There is no pneumothorax or large pleural effusion. Mild degenerative change of the thoracic spine is noted. No acute cardiopulmonary findings are seen.,No Finding,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is Pleural Effusion present?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can Pleural Effusion be detected?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of Pleural Effusion?,No large pleural effusion is seen.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,What evidence of Pleural Effusion is visible?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the image suggest Pleural Effusion?,No large pleural effusion is seen.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of Pleural Effusion?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is the heart size normal?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the heart appear enlarged?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,How is the size of the heart?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is the heart size within the expected range?,The heart size is within normal limits as observed in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Does the radiograph suggest a normal heart size?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Is there any indication of an enlarged heart?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of an enlarged Cardiomedistinum?,The mediastinal contour is within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there indications of Pneumonia?,There is no focal airspace consolidation or suspicious pulmonary opacity as seen in the radiograph.,Pneumonia,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can Pneumonia be detected?,No focal airspace consolidation or suspicious pulmonary opacity is seen.,Pneumonia,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of Edema?,"No, there are no signs of edema observed in the radiograph.",Edema,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can Pleural findings be identified?,No large pleural effusion is observed.,Pleural Other,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Are there signs of a Fracture?,No fracture is identified. The thoracic spine demonstrates mild degenerative change.,Fracture,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,Can an enlarged Cardiomedistinum be detected?,The mediastinal contour is within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+5,p00006,s00006,What support devices are detected?,Mild degenerative change of the thoracic spine is observed.,Support Devices,,files/p00006/s00006/6_IM-2192-1001.dcm.png,Frontal
+6,p00007,s00007,Is Atelectasis observed?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Can atelectasis be identified?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there signs of Atelectasis?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,What evidence of Atelectasis is present?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Does the patient have Atelectasis?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there indications of Atelectasis?,Basilar atelectasis is observed.,Atelectasis,1.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Is Consolidation observed?,No confluent lobar consolidation is seen.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Can Consolidation be identified?,No confluent lobar consolidation is seen.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there signs of Consolidation?,No confluent lobar consolidation is observed.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,What evidence of Consolidation is visible?,No evidence of consolidation is visible.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Does the image indicate Consolidation?,No confluent lobar consolidation is observed.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there indications of Consolidation?,No confluent lobar consolidation is observed.,Consolidation,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there signs of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,What evidence of Pleural Effusion is visible?,No pleural effusion is visible.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Does the image suggest Pleural Effusion?,No pleural effusion is observed. The lungs are clear.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there indications of Pleural Effusion?,No pleural effusion is observed. The lungs are clear and no confluent lobar consolidation is seen.,Pleural Effusion,0.0,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Is the Cardiomedistinum abnormal in size?,The cardiac contours are normal.,Enlarged Cardiomediastinum,,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Which support devices can be identified?,Thoracic spondylosis and lower cervical arthritis are observed.,Support Devices,,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Are there signs of Pneumonia?,The lungs are clear and no confluent lobar consolidation is observed.,Pneumonia,,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+6,p00007,s00007,Can any support devices be found?,Thoracic spondylosis is observed.,Support Devices,,files/p00007/s00007/7_IM-2263-1001.dcm.png,Frontal
+7,p00008,s00008,Is Lung Opacity present?,Opacity is observed in the lungs.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can Lung Opacity be identified?,Pulmonary fields are within normal limits.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there signs of Lung Opacity?,Opacity is not observed in the lungs as seen in the radiograph.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What evidence of Lung Opacity is visible?,The radiograph shows no focal air space opacity to suggest a pneumonia.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the image indicate Lung Opacity?,No Lung Opacity is observed. The pulmonary fields are within normal limits.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of Lung Opacity?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there any findings?,"The heart, pulmonary vessels, and mediastinum are within normal limits. There is an interim cervical spinal fusion partly evaluated.",No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is there any findings in the image?,"The heart, pulmonary structures and mediastinum are within normal limits. There is an interim cervical spinal fusion partly evaluated.",No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can any abnormalities be detected?,"The radiograph shows the heart, pulmonary vasculature, and mediastinum within normal limits. No abnormalities are observed.",No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of findings in the image?,"The heart, pulmonary structures and mediastinum are within normal limits. The cervical spinal fusion is partly evaluated.",No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there any abnormalities present?,No abnormalities are observed.,No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Do you see any findings in the image?,"The heart, pulmonary structures and mediastinum are within normal limits. An interim cervical spinal fusion is partly evaluated.",No Finding,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there signs of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What evidence of Pleural Effusion is visible?,There is no pleural effusion visible.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the image suggest Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is Pneumonia observed?,No focal air space opacity to suggest a pneumonia is seen.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can Pneumonia be detected?,No focal air space opacity to suggest a pneumonia is seen.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there signs of Pneumonia?,There is no focal air space opacity to suggest a pneumonia.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What evidence of Pneumonia is present?,There is no focal air space opacity to suggest a pneumonia.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the image indicate Pneumonia?,No focal air space opacity to suggest a pneumonia is seen.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of Pneumonia?,There is no focal air space opacity to suggest a pneumonia.,Pneumonia,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of Pneumothorax?,There is no pneumothorax observed in the radiograph.,Pneumothorax,0.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is the heart size normal?,The heart is within normal limits.,heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the heart appear enlarged?,"The heart size is not specifically measured in the radiograph, but it is stated that the heart is within normal limits.",heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,How is the size of the heart?,The size of the heart is within normal limits as seen in the radiograph.,heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is the heart size within the expected range?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Does the radiograph suggest a normal heart size?,The heart is within normal limits as seen in the radiograph.,heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is there any indication of an enlarged heart?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can atelectasis be identified?,"Opacity is observed in the lung fields, which demonstrates features consistent with atelectasis.",Atelectasis,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of a Fracture?,"Opacity is observed adjacent to the cervical spine, which is associated with the cervical spinal fusion, suggesting that the fusion hardware is visible on the radiograph.",Fracture,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is the Cardiomedistinum enlarged?,error,Enlarged Cardiomediastinum,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What evidence of Consolidation is visible?,No focal air space opacity to suggest a pneumonia is observed.,Consolidation,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Can any support devices be found?,A cervical spinal fusion device is observed.,Support Devices,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Are there indications of Edema?,"Cardiomegaly is not observed. Pulmonary vascular markings are within normal limits. There is no evidence of pleural effusion, which could indicate edema.",Edema,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,Is there evidence of Cardiomegaly?,The heart size is within normal limits as seen in the radiograph.,Cardiomegaly,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+7,p00008,s00008,What support devices are detected?,A cervical spinal fusion device is observed.,Support Devices,,files/p00008/s00008/8_IM-2333-1001.dcm.png,Frontal
+8,p00009,s00009,Is Consolidation observed?,No consolidation is observed.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Can Consolidation be identified?,No consolidation is observed in the radiograph.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there signs of Consolidation?,No consolidation is seen in the radiograph.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,What evidence of Consolidation is visible?,No consolidation is visible.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Does the image indicate Consolidation?,No consolidation is observed in the radiograph.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there indications of Consolidation?,There is no consolidation observed in the radiograph.,Consolidation,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Is Pleural Effusion present?,There is no pleural effusion observed in the radiograph.,Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Can Pleural Effusion be detected?,"There is no consolidation, pleural effusion or pneumothorax observed in the radiograph.",Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there signs of Pleural Effusion?,No signs of pleural effusion are observed in the radiograph.,Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,What evidence of Pleural Effusion is visible?,"There is no consolidation, pleural effusion or pneumothorax observed.",Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Does the image suggest Pleural Effusion?,"No, pleural effusion is not seen in the radiograph.",Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there indications of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Can Pneumothorax be detected?,No pneumothorax is observed in the radiograph.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,What evidence of Pneumothorax is visible?,There is no pneumothorax visible.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+8,p00009,s00009,Are there indications of Pneumothorax?,There is no pneumothorax observed.,Pneumothorax,0.0,files/p00009/s00009/9_IM-2407-1001.dcm.png,Frontal
+9,p00010,s00010,Is Lung Opacity present?,Opacity is not observed in the lungs.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Can Lung Opacity be identified?,Lung opacity is not observed. The lungs are normally inflated without evidence of focal airspace disease.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of Lung Opacity?,Lung opacities are not observed. The lungs are normally inflated without evidence of focal airspace disease.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What evidence of Lung Opacity is visible?,Lung Opacity is not visible. The lungs are normally inflated without evidence of focal airspace disease.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Does the image indicate Lung Opacity?,The lungs are normally inflated without evidence of focal airspace disease.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there indications of Lung Opacity?,No lung opacity is observed. The lungs are normally inflated without evidence of focal airspace disease.,Lung Opacity,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there any findings?,"Calcified granuloma is seen in the right upper lung. The cardiomediastinal silhouette is within normal limits for size and contour. The lungs are normally inflated without evidence of focal airspace disease, pleural effusion, or pneumothorax. No acute bone abnormality is observed.",No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Is there any findings in the image?,Calcified granuloma within the right upper lung is observed.,No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Can any abnormalities be detected?,Calcified granuloma is observed within the right upper lung.,No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there indications of findings in the image?,Calcified granuloma is observed within the right upper lung.,No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there any abnormalities present?,Calcified granuloma is observed within the right upper lung.,No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Do you see any findings in the image?,Calcified granuloma is observed within the right upper lung.,No Finding,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Is Pleural Effusion present?,No evidence of pleural effusion is observed.,Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Can Pleural Effusion be detected?,The lungs are normally inflated without evidence of pleural effusion.,Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of Pleural Effusion?,No evidence of pleural effusion is observed in the radiograph.,Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Does the image suggest Pleural Effusion?,No evidence of pleural effusion is seen in the lungs.,Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there indications of Pleural Effusion?,"The lungs are normally inflated without evidence of focal airspace disease, pleural effusion, or pneumothorax.",Pleural Effusion,0.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Can Pneumothorax be detected?,No pneumothorax is observed. The lungs are normally inflated without evidence of pneumothorax.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of Pneumothorax?,No pneumothorax is observed in the radiograph.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What evidence of Pneumothorax is visible?,No evidence of pneumothorax is visible.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Does the image suggest Pneumothorax?,No pneumothorax is observed. The lungs are normally inflated without evidence of pneumothorax.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,1.0,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of Atelectasis?,No signs of atelectasis are observed in the radiograph.,Atelectasis,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What evidence of a Fracture is present?,No acute bone abnormality is observed.,Fracture,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What suggests Cardiomegaly in the findings?,The cardiomediastinal silhouette is within normal limits for size and contour.,Cardiomegaly,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Can Atelectasis be identified?,"The lungs are normally inflated without evidence of focal airspace disease, which suggests that atelectasis is not observed.",Atelectasis,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of an enlarged Cardiomedistinum?,The cardiomediastinal silhouette is within normal limits for size and contour.,Enlarged Cardiomediastinum,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Are there signs of a Lung Lesion?,Calcified granuloma within the right upper lung is observed.,Lung Lesion,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,Is the Cardiomedistinum abnormal in size?,The cardiomediastinal silhouette is within normal limits for size and contour.,Enlarged Cardiomediastinum,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+9,p00010,s00010,What support devices are detected?,No support devices are detected.,Support Devices,,files/p00010/s00010/10_IM-0002-2001.dcm.png,Frontal
+10,p00011,s00011,Are there any findings?,"No abnormalities are observed in the cardiomediastinal silhouette, pulmonary vasculature, lungs, or osseous structures. There is no pneumothorax or pleural effusion.",No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Is there any findings in the image?,"The lungs are clear, and no pneumothorax or pleural effusion is observed. The cardiomediastinal silhouette and pulmonary vasculature appear within normal limits.",No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Can any abnormalities be detected?,"No abnormalities are observed in the cardiomediastinal silhouette, pulmonary vasculature, lungs, or osseous structures. No pneumothorax, pleural effusion, or acute cardiopulmonary findings are seen.",No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there indications of findings in the image?,"The image shows no abnormal findings. The cardiomediastinal silhouette and pulmonary vasculature are within normal limits, the lungs are clear, and there is no evidence of pneumothorax, pleural effusion, or acute osseous findings.",No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there any abnormalities present?,"No abnormalities are observed in the cardiomediastinal silhouette, pulmonary vasculature, lungs, or osseous structures. The pleural spaces appear clear of pneumothorax or pleural effusion.",No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Do you see any findings in the image?,The image shows a normal cardiomediastinal silhouette and pulmonary vasculature. The lungs appear clear. No pneumothorax or pleural effusion is observed. No acute osseous findings are seen. No acute cardiopulmonary findings are noted.,No Finding,1.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there signs of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Does the image suggest Pleural Effusion?,"No, the image does not show Pleural Effusion. The lungs are clear and no pleural effusion is observed.",Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there indications of Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Can Cardiomegaly be detected?,Cardiomegaly is not observed.,Cardiomegaly,,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,What Pleural abnormalities are present?,No pleural abnormalities are observed.,Pleural Other,,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there indications of Atelectasis?,Opacity is not observed in the lungs as seen in the radiograph.,Atelectasis,,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+10,p00011,s00011,Are there signs of a Fracture?,No acute osseous findings are observed.,Fracture,,files/p00011/s00011/11_IM-0067-1001.dcm.png,Frontal
+11,p00012,s00012,Are there any findings?,The lungs are clear bilaterally. Cardiac and mediastinal silhouettes are normal. Pulmonary vasculature is normal. There is no pneumothorax or pleural effusion. No acute bony abnormality is observed. No acute cardiopulmonary abnormality is seen.,No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Is there any findings in the image?,"The lungs appear clear bilaterally, with no opacity observed. The cardiac and mediastinal silhouettes are normal in appearance. The pulmonary vasculature is also normal. No pneumothorax or pleural effusion is visible. Additionally, no acute bony abnormality or acute cardiopulmonary abnormality is identified.",No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Can any abnormalities be detected?,The lungs are clear bilaterally. Cardiac and mediastinal silhouettes are normal. Pulmonary vasculature is normal. No pneumothorax or pleural effusion is observed. No acute bony abnormality is seen. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there indications of findings in the image?,The lungs appear clear bilaterally. Cardiac and mediastinal silhouettes are normal. The pulmonary vasculature is normal. No pneumothorax or pleural effusion is observed. No acute bony abnormality is identified. No acute cardiopulmonary abnormality is seen.,No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there any abnormalities present?,The lungs are clear bilaterally. Cardiac and mediastinal silhouettes are normal. Pulmonary vasculature is normal. No pneumothorax or pleural effusion is seen. No acute bony abnormality is observed. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Do you see any findings in the image?,The lungs appear clear bilaterally. The cardiac and mediastinal silhouettes are normal. The pulmonary vasculature is normal. There is no pneumothorax or pleural effusion. No acute bony abnormality is observed. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there signs of Pleural Effusion?,"No pleural effusion is observed. The lungs are clear bilaterally, and no fluid collection is seen in the pleural spaces.",Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Does the image suggest Pleural Effusion?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there indications of Pleural Effusion?,No pleural effusion is observed. The lungs are clear bilaterally and no fluid collection is seen.,Pleural Effusion,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there signs of Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,What evidence of Pneumothorax is visible?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there indications of Consolidation?,Opacity is not observed in the lungs.,Consolidation,,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there unusual Pleural findings?,No pleural effusion is observed. The pleural surfaces are not visible.,Pleural Other,,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there signs of Pleural conditions?,No pleural effusion is seen. No pneumothorax is observed.,Pleural Other,,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+11,p00012,s00012,Are there signs of Edema?,No signs of edema are observed in the radiograph.,Edema,,files/p00012/s00012/12_IM-0133-1001.dcm.png,Frontal
+12,p00013,s00013,Is Lung Opacity present?,No focal opacity is observed.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Can Lung Opacity be identified?,No focal opacity is seen in the radiograph.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there signs of Lung Opacity?,No focal opacity is observed.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What evidence of Lung Opacity is visible?,No focal opacity is visible on the radiograph.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Does the image indicate Lung Opacity?,Opacity is not observed in the radiograph.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there indications of Lung Opacity?,No focal opacity is observed.,Lung Opacity,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Is Pleural Effusion present?,No large pleural effusion is seen.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Can Pleural Effusion be detected?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there signs of Pleural Effusion?,There is no large pleural effusion as seen in the radiograph.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What evidence of Pleural Effusion is visible?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Does the image suggest Pleural Effusion?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there indications of Pleural Effusion?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What evidence of Pneumothorax is visible?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Which Support Devices are found?,No Support Devices are seen.,Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What types of support devices are present?,No support devices are seen.,Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Which support devices can be identified?,The radiograph does not show any support devices.,Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there any support devices observed?,No support devices are observed.,Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What support devices are detected?,No support devices are detected.,Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Can any support devices be found?,"No central venous catheters, Swan-Ganz catheters, or other support devices are observed.",Support Devices,1.0,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Is Edema observed?,No edema is observed.,Edema,,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there signs of Atelectasis?,No signs of atelectasis are observed in the radiograph.,Atelectasis,,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,Are there indications of Pneumonia?,There is no focal opacity seen in the radiograph.,Pneumonia,,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+12,p00013,s00013,What evidence of Consolidation is visible?,No evidence of consolidation is visible.,Consolidation,,files/p00013/s00013/13_IM-0198-1001.dcm.png,Frontal
+13,p00014,s00014,Is Consolidation observed?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can consolidation be identified?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there signs of Consolidation?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,What evidence of Consolidation is visible?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the image indicate Consolidation?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there indications of Consolidation?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is Edema observed?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can Edema be detected?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there signs of Edema?,No typical findings of pulmonary edema are seen in the radiograph.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,What evidence of Edema is present?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the image suggest Edema?,No typical findings of pulmonary edema are seen in the radiograph.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there indications of Edema?,No typical findings of pulmonary edema are observed.,Edema,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there any findings?,Mild hyperinflation is observed. Scattered chronic appearing irregular interstitial markings are seen.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is there any findings in the image?,Mild hyperinflation is observed. Scattered chronic appearing irregular interstitial markings are seen.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can any abnormalities be detected?,Mild hyperinflation is observed. Scattered chronic appearing irregular interstitial markings are seen.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there indications of findings in the image?,Hyperinflation and interstitial markings are observed in the radiograph.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there any abnormalities present?,Mild hyperinflation and scattered chronic appearing irregular interstitial markings are observed.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Do you see any findings in the image?,Mild hyperinflation is observed. Scattered chronic appearing irregular interstitial markings are seen. The heart size is within normal limits. Mediastinal and hilar contours are stable. No focal alveolar consolidation or pleural effusion is observed. No typical findings of pulmonary edema are seen. No acute findings are identified.,No Finding,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is Pleural Effusion present?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can Pleural Effusion be detected?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there signs of Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,What evidence of Pleural Effusion is visible?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the image suggest Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there indications of Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is the heart size normal?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the heart appear enlarged?,The heart size is within normal limits.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,How is the size of the heart?,The size of the heart is within normal limits as seen in the radiograph.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is the heart size within the expected range?,The heart size is within normal limits as observed in the radiograph.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the radiograph suggest a normal heart size?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is there any indication of an enlarged heart?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can an enlarged Cardiomedistinum be detected?,error,Enlarged Cardiomediastinum,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can Pleural findings be identified?,No definite pleural effusion is seen.,Pleural Other,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there signs of a Fracture?,error,Fracture,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there unusual Pleural findings?,No definite pleural effusion is seen.,Pleural Other,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Can a Fracture be identified?,error,Fracture,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Is a Fracture visible?,error,Fracture,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Are there signs of Pleural conditions?,No definite pleural effusion is seen.,Pleural Other,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+13,p00014,s00014,Does the image indicate Lung Opacity?,"Opacity is not observed in the image. However, mild hyperinflation is seen.",Lung Opacity,,files/p00014/s00014/14_IM-0256-2001.dcm.png,Lateral
+14,p00015,s00015,Are there any findings?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Is there any findings in the image?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Can any abnormalities be detected?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there indications of findings in the image?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there any abnormalities present?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Do you see any findings in the image?,Evidence of prior granulomatous disease is observed.,No Finding,1.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Can Pleural Effusion be detected?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there signs of Pleural Effusion?,"No, pleural effusion is not observed. The lungs are clear, and no fluid is seen in the pleural spaces.",Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Does the image suggest Pleural Effusion?,"No, the image does not show Pleural Effusion as the lungs are clear and no pleural effusion is observed.",Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there indications of Pleural Effusion?,No pneumothorax or pleural effusion is observed.,Pleural Effusion,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Can Atelectasis be identified?,No atelectasis is observed in the lungs.,Atelectasis,,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,What suggests a Lung Lesion in the findings?,Evidence of prior granulomatous disease is observed.,Lung Lesion,,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Is Cardiomegaly present?,"Cardiomediastinal silhouette is within normal limits, no cardiomegaly is observed.",Cardiomegaly,,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+14,p00015,s00015,Is Atelectasis observed?,No atelectasis is observed.,Atelectasis,,files/p00015/s00015/15_IM-0324-2001.dcm.png,Lateral
+15,p00017,s00017,Is Consolidation observed?,No focal areas of consolidation are seen.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Can consolidation be identified?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there signs of Consolidation?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of Consolidation is visible?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image indicate Consolidation?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of Consolidation?,No focal areas of consolidation are observed.,Consolidation,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is Lung Opacity present?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Can Lung Opacity be identified?,No focal areas of consolidation are seen. Suspicious pulmonary opacities are not observed.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there signs of Lung Opacity?,No suspicious pulmonary opacities are observed in the radiograph.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of Lung Opacity is visible?,No suspicious pulmonary opacities are observed.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image indicate Lung Opacity?,No suspicious pulmonary opacities are observed.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of Lung Opacity?,No suspicious pulmonary opacities are observed.,Lung Opacity,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there any findings?,"The radiograph shows heart size within normal limits, osseous structures intact, and no pleural effusions, pneumothorax, acute cardiopulmonary abnormality, or suspicious pulmonary opacities. Focal areas of consolidation are not observed.",No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is there any findings in the image?,The heart size is within normal limits as seen in the radiograph.,No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Can any abnormalities be detected?,No abnormalities are observed in the radiograph.,No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of findings in the image?,"No focal areas of consolidation, suspicious pulmonary opacities, pleural effusions, pneumothorax, or acute cardiopulmonary abnormalities are observed. The heart size is within normal limits, and osseous structures appear intact.",No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there any abnormalities present?,No abnormalities are observed in the radiograph.,No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Do you see any findings in the image?,"The radiograph shows no focal areas of consolidation, no suspicious pulmonary opacities, heart size within normal limits, no pleural effusions, no evidence of pneumothorax, osseous structures intact, and no acute cardiopulmonary abnormality.",No Finding,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is Pleural Effusion present?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Can Pleural Effusion be detected?,No pleural effusions are seen.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there signs of Pleural Effusion?,No pleural effusions are seen.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of Pleural Effusion is visible?,No pleural effusions are visible.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image suggest Pleural Effusion?,No pleural effusions are seen.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of Pleural Effusion?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is Pneumothorax present?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Can Pneumothorax be detected?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there signs of Pneumothorax?,No evidence of pneumothorax is seen.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of Pneumothorax is visible?,No evidence of pneumothorax is visible.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image suggest Pneumothorax?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of Pneumothorax?,No evidence of pneumothorax is observed.,Pneumothorax,0.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is the heart size normal?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the heart appear enlarged?,Heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,How is the size of the heart?,The heart size is within normal limits as observed in the radiograph.,heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is the heart size within the expected range?,The heart size is within normal limits as observed in the radiograph.,heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the radiograph suggest a normal heart size?,"Yes, the heart size is within normal limits as seen in the radiograph.",heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is there any indication of an enlarged heart?,Heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is Atelectasis observed?,No atelectasis is observed.,Atelectasis,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Are there indications of a Fracture?,Osseous structures appear intact.,Fracture,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of Pneumonia is present?,No focal areas of consolidation are observed in the radiograph.,Pneumonia,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Which Support Devices are found?,The images show that the patient is not wearing any visible support devices such as orthotics or prosthetics.,Support Devices,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image show a Lung Lesion?,No Lung Lesion is observed.,Lung Lesion,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,What evidence of a Fracture is present?,Osseous structures appear intact.,Fracture,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Is there any Pleural abnormality?,No pleural effusions are observed. The pleural spaces appear clear.,Pleural Other,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+15,p00017,s00017,Does the image suggest Edema?,The image does not demonstrate any findings suggestive of edema.,Edema,,files/p00017/s00017/17_IM-0460-1001.dcm.png,Lateral
+16,p00018,s00018,Is Consolidation observed?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Can consolidation be identified?,No focal alveolar consolidation is seen in the radiograph.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of Consolidation?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What evidence of Consolidation is visible?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the image indicate Consolidation?,No focal alveolar consolidation is seen.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there indications of Consolidation?,No focal alveolar consolidation is seen in the radiograph.,Consolidation,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is Edema observed?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Can Edema be detected?,No typical findings of pulmonary edema are observed.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of Edema?,No typical findings of pulmonary edema are observed.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What evidence of Edema is present?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the image suggest Edema?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there indications of Edema?,No typical findings of pulmonary edema are seen.,Edema,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there any findings?,"The radiograph shows a heart size within normal limits. No focal alveolar consolidation, no definite pleural effusion, no typical findings of pulmonary edema, no pneumothorax, and no acute cardiopulmonary findings are observed.",No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is there any findings in the image?,"The heart size is within normal limits. No focal alveolar consolidation, no definite pleural effusion, no typical findings of pulmonary edema, no pneumothorax, and no acute cardiopulmonary findings are observed.",No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Can any abnormalities be detected?,No abnormalities are detected on the radiograph.,No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there indications of findings in the image?,"The heart size is within normal limits. No focal alveolar consolidation, no definite pleural effusion, no typical findings of pulmonary edema, no pneumothorax, and no acute cardiopulmonary findings are observed.",No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there any abnormalities present?,"The heart size is within normal limits. No focal alveolar consolidation, no definite pleural effusion, no typical findings of pulmonary edema, no pneumothorax, and no acute cardiopulmonary findings are observed.",No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Do you see any findings in the image?,Heart size is within normal limits as seen in the radiograph.,No Finding,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is Pleural Effusion present?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Can Pleural Effusion be detected?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What evidence of Pleural Effusion is visible?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the image suggest Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there indications of Pleural Effusion?,No definite pleural effusion is seen.,Pleural Effusion,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is Pneumothorax present?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the image suggest Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there indications of Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is the heart size normal?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the heart appear enlarged?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,How is the size of the heart?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is the heart size within the expected range?,The heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the radiograph suggest a normal heart size?,The heart size is within normal limits as observed in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is there any indication of an enlarged heart?,Heart size is within normal limits as seen in the radiograph.,heart,1.0,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What suggests Cardiomegaly in the findings?,The heart size is within normal limits.,Cardiomegaly,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is the Cardiomedistinum enlarged?,The heart size is within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of a Lung Lesion?,No lung lesion is identified. The radiograph shows no focal alveolar consolidation.,Lung Lesion,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,What Pleural abnormalities are present?,No definite pleural effusion is seen.,Pleural Other,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the patient have Atelectasis?,No atelectasis is observed in the radiograph.,Atelectasis,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Are there signs of an enlarged Cardiomedistinum?,The heart size is within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Does the image indicate Lung Opacity?,No lung opacity is observed.,Lung Opacity,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+16,p00018,s00018,Is Pneumonia observed?,No focal alveolar consolidation is seen.,Pneumonia,,files/p00018/s00018/18_IM-0520-2001.dcm.png,Lateral
+17,p00019,s00019,Is Lung Opacity present?,No focal airspace disease is observed.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can Lung Opacity be identified?,Opacity is not observed in the lungs.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there signs of Lung Opacity?,No focal airspace disease is observed.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,What evidence of Lung Opacity is visible?,No focal airspace disease is observed.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the image indicate Lung Opacity?,No focal airspace disease is observed.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there indications of Lung Opacity?,No focal airspace disease is observed in the radiograph.,Lung Opacity,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there any findings?,Tortuosity of the thoracic aorta and degenerative changes in the thoracic spine are observed.,No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is there any findings in the image?,Tortuosity of the thoracic aorta is observed. Degenerative changes in the thoracic spine are seen.,No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can any abnormalities be detected?,Degenerative changes in the thoracic spine are observed. Tortuosity of the thoracic aorta is seen.,No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there indications of findings in the image?,Degenerative changes in the thoracic spine are observed. Tortuosity of the thoracic aorta is seen. No other abnormalities are identified.,No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there any abnormalities present?,"Degenerative changes in the thoracic spine are observed. Tortuosity of the thoracic aorta is seen. No focal airspace disease, effusion, pleural effusions, pneumothoraces, or acute cardiopulmonary process is identified.",No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Do you see any findings in the image?,The radiograph shows degenerative changes in the thoracic spine. Tortuosity of the thoracic aorta is observed.,No Finding,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is Pleural Effusion present?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can Pleural Effusion be detected?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there signs of Pleural Effusion?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,What evidence of Pleural Effusion is visible?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the image suggest Pleural Effusion?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there indications of Pleural Effusion?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can Pneumothorax be detected?,No pneumothorax is observed. The radiograph shows no evidence of pneumothorax.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there signs of Pneumothorax?,No pleural effusions or pneumothoraces are observed.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,What evidence of Pneumothorax is visible?,No pneumothoraces are observed.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the image suggest Pneumothorax?,No pneumothorax is observed. The radiograph shows no evidence of air or gas in the pleural space.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there indications of Pneumothorax?,No pneumothoraces are observed.,Pneumothorax,0.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is the heart size normal?,The heart size is observed to be normal.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the heart appear enlarged?,The heart size is normal.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,How is the size of the heart?,The size of the heart is normal.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is the heart size within the expected range?,Heart size is normal.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the radiograph suggest a normal heart size?,The heart size is normal as seen in the radiograph.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is there any indication of an enlarged heart?,The heart size is normal as seen in the radiograph.,heart,1.0,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there any support devices observed?,No support devices are observed.,Support Devices,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the patient have Atelectasis?,No atelectasis is observed in the radiograph.,Atelectasis,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can Pneumonia be detected?,No focal airspace disease is observed.,Pneumonia,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Does the image indicate Consolidation?,Consolidation is not observed.,Consolidation,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there indications of a Fracture?,Degenerative changes in the thoracic spine are observed.,Fracture,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Are there signs of Pneumonia?,No focal airspace disease is observed.,Pneumonia,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Can Atelectasis be identified?,No atelectasis is observed.,Atelectasis,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+17,p00019,s00019,Is Consolidation observed?,No consolidation is observed.,Consolidation,,files/p00019/s00019/19_IM-0583-3003.dcm.png,Lateral
+18,p00020,s00020,Is Lung Opacity present?,No Lung Opacity is observed.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Can Lung Opacity be identified?,Lung opacity is not observed. The lungs are clear.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there signs of Lung Opacity?,Lung opacities are not observed. The lungs are clear.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,What evidence of Lung Opacity is visible?,There are no focal air space opacities visible.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Does the image indicate Lung Opacity?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there indications of Lung Opacity?,Lung opacities are not observed. The lungs appear clear.,Lung Opacity,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there any findings?,The lungs are well expanded and clear. There are no focal air space opacities. There is no pneumothorax or effusion. Mild degenerative changes of the thoracic spine are seen. The cardiac and mediastinal silhouettes are unremarkable.,No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Is there any findings in the image?,"Mild degenerative changes of the thoracic spine are observed. The cardiac and mediastinal silhouettes are unremarkable. The lungs are well expanded and clear, and there are no focal air space opacities, pneumothorax, or effusion.",No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Can any abnormalities be detected?,Mild degenerative changes of the thoracic spine are observed.,No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there indications of findings in the image?,"The lungs appear clear, and there are no focal air space opacities or evidence of pneumothorax or effusion. Mild degenerative changes of the thoracic spine are observed.",No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there any abnormalities present?,"Mild degenerative changes of the thoracic spine are observed. The lungs appear clear, and there is no evidence of acute cardiopulmonary process.",No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Do you see any findings in the image?,"Degenerative changes of the thoracic spine are observed. The cardiac and mediastinal silhouettes appear unremarkable. The lungs show no focal air space opacities, pneumothorax, or effusion.",No Finding,1.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Is Pleural Effusion present?,There is no effusion observed.,Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Can Pleural Effusion be detected?,No pleural effusion is seen in the radiograph.,Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there signs of Pleural Effusion?,"No evidence of pleural effusion is observed. The lungs are well expanded and clear, and there is no fluid collection or layering in the dependent portions of the lungs as seen in the radiograph.",Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,What evidence of Pleural Effusion is visible?,No evidence of pleural effusion is visible.,Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Does the image suggest Pleural Effusion?,"No pleural effusion is observed in the radiograph. The lungs are clear and well expanded, and there is no evidence of fluid collection in the pleural spaces.",Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there indications of Pleural Effusion?,"No evidence of pleural effusion is seen. The lungs are well expanded and clear, and there is no indication of fluid accumulation in the pleural spaces as observed in the radiograph.",Pleural Effusion,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,What evidence of Pneumothorax is visible?,There is no pneumothorax visible.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Does the image suggest any Pleural conditions?,"No pleural conditions are observed. The lungs are clear, and there is no evidence of pleural effusion as seen in the radiograph.",Pleural Other,,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Are there signs of Cardiomegaly?,"The cardiac silhouette appears unremarkable, demonstrating no evidence of cardiomegaly as seen in the radiograph.",Cardiomegaly,,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Is the Cardiomedistinum enlarged?,The mediastinum appears unremarkable in size.,Enlarged Cardiomediastinum,,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+18,p00020,s00020,Is Atelectasis observed?,"No focal air space opacities are seen, indicating that atelectasis is not observed.",Atelectasis,,files/p00020/s00020/20_IM-0653-1002.dcm.png,Lateral
+19,p00021,s00021,Is Consolidation observed?,No focal consolidations are observed.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Can consolidation be identified?,No focal consolidations are observed.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there signs of Consolidation?,No focal consolidations are observed in the radiograph.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,What evidence of Consolidation is visible?,No focal consolidations are observed.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Does the image indicate Consolidation?,No focal consolidations are observed in the radiograph.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there indications of Consolidation?,No focal consolidations are observed in the lungs as seen in the radiograph.,Consolidation,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is Pleural Effusion present?,No focal consolidations or pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Can Pleural Effusion be detected?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there signs of Pleural Effusion?,No focal consolidations or pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,What evidence of Pleural Effusion is visible?,No pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Does the image suggest Pleural Effusion?,No focal consolidations or pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there indications of Pleural Effusion?,No focal consolidations or pleural effusions are observed.,Pleural Effusion,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is Pneumothorax present?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Can Pneumothorax be detected?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is the heart size normal?,"Yes, the heart size is normal as seen in the radiograph.",heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Does the heart appear enlarged?,The heart size is observed to be normal.,heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,How is the size of the heart?,The heart size is normal.,heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is the heart size within the expected range?,Heart size is normal.,heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Does the radiograph suggest a normal heart size?,The heart size is observed to be normal.,heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is there any indication of an enlarged heart?,The heart size is observed to be normal.,heart,1.0,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is the Cardiomedistinum abnormal in size?,The mediastinal silhouettes are within normal limits.,Enlarged Cardiomediastinum,,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,What suggests an enlarged Cardiomedistinum?,There is no evidence to suggest an enlarged Cardiomedistinum as the mediastinal silhouettes are within normal limits.,Enlarged Cardiomediastinum,,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Is there any Pleural abnormality?,No pleural effusions are seen. The pleural surfaces appear normal without evidence of pneumothorax.,Pleural Other,,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+19,p00021,s00021,Which Support Devices are found?,Breast implants are observed.,Support Devices,,files/p00021/s00021/21_IM-0729-1001-0002.dcm.png,Lateral
+20,p00022,s00022,Is Lung Opacity present?,"The lungs are clear, and without focal air space opacity.",Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Can Lung Opacity be identified?,Lung opacity is not observed.,Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there signs of Lung Opacity?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,What evidence of Lung Opacity is visible?,Lung Opacity is not visible.,Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Does the image indicate Lung Opacity?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there indications of Lung Opacity?,Lung Opacity is not observed. The lungs are clear.,Lung Opacity,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there any findings?,"The lungs appear clear, and there is no focal air space opacity observed. The cardiomediastinal silhouette is normal in size and contour, and no abnormalities are identified.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Is there any findings in the image?,"The lungs appear clear. The cardiomediastinal silhouette is normal in size and contour. There is no pneumothorax, large pleural effusion, or acute cardiopulmonary abnormality observed.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Can any abnormalities be detected?,"The lungs appear clear, and no focal air space opacity is observed. The cardiomediastinal silhouette is normal in size and contour. There is no pneumothorax or large pleural effusion. No acute cardiopulmonary abnormality is identified.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there indications of findings in the image?,"The lungs appear clear, and no focal air space opacity is observed. The cardiomediastinal silhouette is normal in size and contour. There is no pneumothorax or large pleural effusion. No acute cardiopulmonary abnormality is identified.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there any abnormalities present?,"The lungs are clear, and without focal air space opacity. The cardiomediastinal silhouette is normal in size and contour. There is no pneumothorax, large pleural effusion, or acute cardiopulmonary abnormality.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Do you see any findings in the image?,"The lungs are clear, and without focal air space opacity. The cardiomediastinal silhouette is normal in size and contour. There is no pneumothorax, large pleural effusion. No acute cardiopulmonary abnormality is observed.",No Finding,1.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Is Pleural Effusion present?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Can Pleural Effusion be detected?,No large pleural effusion is observed.,Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there signs of Pleural Effusion?,No large pleural effusion is seen.,Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Does the image suggest Pleural Effusion?,"No, a large pleural effusion is not observed in the radiograph. The lungs appear clear, and there is no focal air space opacity or significant opacity that could suggest fluid accumulation in the pleural space.",Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there indications of Pleural Effusion?,"No, there is no large pleural effusion observed.",Pleural Effusion,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Is Pneumothorax present?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Does the image suggest Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Can any support devices be found?,No support devices are observed.,Support Devices,,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Does the image indicate Pneumonia?,No focal air space opacity is observed in the lungs.,Pneumonia,,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,What suggests Cardiomegaly in the findings?,The cardiomediastinal silhouette is normal in size.,Cardiomegaly,,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+20,p00022,s00022,Are there indications of Consolidation?,Opacity is not observed in the lungs. The radiograph demonstrates clear lungs without focal air space opacity.,Consolidation,,files/p00022/s00022/22_IM-0810-1001.dcm.png,Frontal
+21,p00023,s00023,Is Lung Opacity present?,"Lungs are free of focal airspace disease, no lung opacity is observed.",Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Can Lung Opacity be identified?,Lungs are free of focal airspace disease.,Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there signs of Lung Opacity?,The lungs are free of focal airspace disease.,Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,What evidence of Lung Opacity is visible?,Lung Opacity is not observed.,Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Does the image indicate Lung Opacity?,The lungs are free of focal airspace disease.,Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there indications of Lung Opacity?,Lung Opacity is not observed. The lungs are free of focal airspace disease.,Lung Opacity,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Is Pleural Effusion present?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Can Pleural Effusion be detected?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there signs of Pleural Effusion?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,What evidence of Pleural Effusion is visible?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Does the image suggest Pleural Effusion?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there indications of Pleural Effusion?,No pleural effusion is seen.,Pleural Effusion,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Is Pneumothorax present?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there signs of Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,What evidence of Pneumothorax is visible?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Does the image suggest Pneumothorax?,"No, a pneumothorax is not seen. The radiograph shows no evidence of pneumothorax.",Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there indications of Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Is the heart size normal?,The heart size appears within normal limits as seen in the radiograph.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Does the heart appear enlarged?,The heart size is within normal limits.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,How is the size of the heart?,The heart size appears within normal limits.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Is the heart size within the expected range?,The heart size appears within normal limits as seen in the radiograph.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Does the radiograph suggest a normal heart size?,The heart size appears within normal limits as seen in the radiograph.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Is there any indication of an enlarged heart?,The heart size appears within normal limits as seen in the radiograph.,heart,1.0,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there signs of a Fracture?,No fracture is observed in the radiograph.,Fracture,,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there signs of a Lung Lesion?,"The lungs appear free of focal airspace disease, demonstrating no evidence of a lung lesion as seen in the radiograph.",Lung Lesion,,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there indications of Consolidation?,"Consolidation is not observed in the lungs. The lungs are free of focal airspace disease, which means that areas of consolidation, such as alveolar opacities, are not seen.",Consolidation,,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+21,p00023,s00023,Are there indications of an enlarged Cardiomedistinum?,The heart size appears within normal limits as seen in the radiograph.,Enlarged Cardiomediastinum,,files/p00023/s00023/23_IM-0879-1001.dcm.png,Frontal
+22,p00024,s00024,Is Lung Opacity present?,Lungs are clear of airspace disease.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Can Lung Opacity be identified?,Lungs are clear of airspace disease.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there signs of Lung Opacity?,Lungs are clear of airspace disease.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,What evidence of Lung Opacity is visible?,Lung Opacity is not visible.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Does the image indicate Lung Opacity?,Lungs are clear of airspace disease.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there indications of Lung Opacity?,Lungs are clear of airspace disease.,Lung Opacity,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there any findings?,The lungs are expanded and clear of airspace disease. The pulmonary vascularity is unremarkable. Cardiomediastinal silhouette is within normal limits of size and appearance.,No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Is there any findings in the image?,The cardiomediastinal silhouette is within normal limits of size and appearance. The pulmonary vascularity is unremarkable. Lungs are expanded and clear of airspace disease. There is no evidence of pneumothorax or pleural effusion. Limited bone evaluation reveals no acute abnormality. Incompletely evaluated lumbar levoscoliosis is observed.,No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Can any abnormalities be detected?,No acute cardiopulmonary abnormality is observed. The lungs are clear of airspace disease. The pulmonary vascularity is unremarkable. There is no pneumothorax or pleural effusion. Limited bone evaluation reveals no acute abnormality. Incompletely evaluated lumbar levoscoliosis is identified.,No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there indications of findings in the image?,"The image shows a cardiomediastinal silhouette of normal size and appearance, unremarkable pulmonary vascularity, expanded and clear lungs, and no pneumothorax or pleural effusion. Limited bone evaluation reveals no acute abnormality. There is incompletely evaluated lumbar levoscoliosis and no acute cardiopulmonary abnormality.",No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there any abnormalities present?,Lumbar levoscoliosis is observed. No other abnormalities are identified.,No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Do you see any findings in the image?,The cardiomediastinal silhouette is within normal limits of size and appearance. The pulmonary vascularity is unremarkable. Lungs are expanded and clear of airspace disease. There is no evidence of pneumothorax or pleural effusion. Limited bone evaluation reveals no acute abnormality. Incompletely evaluated lumbar levoscoliosis is observed. No acute cardiopulmonary abnormality is identified.,No Finding,1.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Is Pleural Effusion present?,No pleural effusion is observed.,Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Can Pleural Effusion be detected?,Pleural effusion is not observed. The lungs are clear of airspace disease and negative for pneumothorax or pleural effusion.,Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there signs of Pleural Effusion?,Pleural effusion is not observed. The lungs are clear of airspace disease and negative for pneumothorax or pleural effusion.,Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,What evidence of Pleural Effusion is visible?,No evidence of Pleural Effusion is visible.,Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Does the image suggest Pleural Effusion?,"No, pleural effusion is not observed in the radiograph. The lungs are clear of airspace disease and negative for pneumothorax or pleural effusion.",Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there indications of Pleural Effusion?,Negative for pleural effusion. The lungs are clear of airspace disease and no fluid is observed in the pleural spaces.,Pleural Effusion,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Is Pneumothorax present?,Negative for pneumothorax.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Can Pneumothorax be detected?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there signs of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,What evidence of Pneumothorax is visible?,No evidence of pneumothorax is visible.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Does the image suggest Pneumothorax?,No pneumothorax is seen.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there indications of Pneumothorax?,No pneumothorax is observed.,Pneumothorax,0.0,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,What suggests Cardiomegaly in the findings?,Cardiomediastinal silhouette is within normal limits of size and appearance.,Cardiomegaly,,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Are there indications of Atelectasis?,"The lungs are clear of airspace disease, demonstrating no evidence of atelectasis as seen in the radiograph.",Atelectasis,,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,What evidence of Consolidation is visible?,No evidence of consolidation is visible in the lungs.,Consolidation,,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+22,p00024,s00024,Can atelectasis be identified?,The lungs are clear of airspace disease.,Atelectasis,,files/p00024/s00024/24_IM-0949-1001.dcm.png,Frontal
+23,p00025,s00025,Is Lung Opacity present?,"Opacity is observed in the left lower lobe, compatible with airspace disease.",Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Can Lung Opacity be identified?,Opacity is observed in the left lower lobe.,Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there signs of Lung Opacity?,"Opacity is observed in the left lower lobe, identified as airspace disease.",Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,What evidence of Lung Opacity is visible?,Airspace disease is identified in the left lower lobe.,Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Does the image indicate Lung Opacity?,"Opacity is observed in the left lower lobe due to airspace disease. Additionally, moderate left pleural effusion and small right pleural effusion are seen, which may also contribute to opacity in these areas.",Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there indications of Lung Opacity?,"Opacity is observed in the left lower lobe, compatible with airspace disease.",Lung Opacity,-1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is Pleural Effusion present?,Moderate left pleural effusion and small right pleural effusion are observed.,Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Can Pleural Effusion be detected?,Moderate left pleural effusion and small right pleural effusion are observed.,Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there signs of Pleural Effusion?,Moderate left pleural effusion and small right pleural effusion are observed. The left pleural effusion is greater than the right.,Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,What evidence of Pleural Effusion is visible?,Moderate left pleural effusion and small right pleural effusion are observed.,Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Does the image suggest Pleural Effusion?,"Yes, moderate left pleural effusion and small right pleural effusion are observed. The left pleural effusion is greater than the right.",Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there indications of Pleural Effusion?,Moderate left pleural effusion and small right pleural effusion are observed.,Pleural Effusion,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is Pneumothorax present?,No visualized pneumothorax.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Can Pneumothorax be detected?,No visualized pneumothorax is observed.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there signs of Pneumothorax?,No visualized pneumothorax is observed.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,What evidence of Pneumothorax is visible?,No pneumothorax is visible.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Does the image suggest Pneumothorax?,No visualized pneumothorax is observed.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there indications of Pneumothorax?,No visualized pneumothorax is observed.,Pneumothorax,0.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is the heart size normal?,The heart is within normal limits in size.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Does the heart appear enlarged?,The heart is within normal limits in size.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,How is the size of the heart?,The heart is within normal limits in size.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is the heart size within the expected range?,The heart is within normal limits in size as seen in the radiograph.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Does the radiograph suggest a normal heart size?,The heart size is within normal limits.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is there any indication of an enlarged heart?,The heart is within normal limits in size.,heart,1.0,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there indications of Pneumonia?,"Airspace disease is identified in the left lower lobe, which may indicate pneumonia. However, the presence of airspace disease can also be associated with other conditions. The lungs show hyperinflation and hyperlucency compatible with emphysema, and the left lower lobe airspace disease may also be secondary to inhalational injury.",Pneumonia,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Are there signs of an enlarged Cardiomedistinum?,error,Enlarged Cardiomediastinum,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,What evidence of a Fracture is present?,error,Fracture,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is there evidence of a Lung Lesion?,Airspace disease is identified in the left lower lobe. No distinct mass or nodule is observed. The appearance is consistent with airspace disease rather than a discrete lung lesion.,Lung Lesion,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,What support devices are detected?,Surgical suture material is observed projecting over the right lung apex.,Support Devices,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is the Cardiomedistinum enlarged?,error,Enlarged Cardiomediastinum,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Is Cardiomegaly present?,The heart is within normal limits in size.,Cardiomegaly,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
+23,p00025,s00025,Can an enlarged Cardiomedistinum be detected?,error,Enlarged Cardiomediastinum,,files/p00025/s00025/25_IM-1024-2001.dcm.png,Frontal
