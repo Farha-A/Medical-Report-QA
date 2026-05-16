@@ -6,14 +6,12 @@ altair
 annotated-doc
 anyio
 attrs
-bitsandbytes
 blinker
 cachetools
 certifi
 charset-normalizer
 click
 colorama
-datasets
 dill
 filelock
 frozenlist
@@ -31,8 +29,6 @@ itsdangerous
 Jinja2
 jsonschema
 jsonschema-specifications
-kagglehub
-kaggle-sdk
 markdown-it-py
 MarkupSafe
 mdurl
