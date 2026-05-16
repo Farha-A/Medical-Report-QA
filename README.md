@@ -19,7 +19,7 @@ Authentication:
 ## 1. Download the dataset
 
 ```bash
-python download_data.py --out data/manifest.json
+python data/download_data.py --out data/manifest.json
 ```
 
 This downloads the Kaggle dataset and emits a JSON manifest of `(image, report)` pairs.
@@ -27,7 +27,7 @@ This downloads the Kaggle dataset and emits a JSON manifest of `(image, report)`
 ## 2. Fine-tune (LoRA, 4-bit)
 
 ```bash
-python train.py \
+python scripts/train.py \
   --manifest data/manifest.json \
   --output_dir checkpoints/medgemma-cxr-lora \
   --epochs 1 \
@@ -65,4 +65,4 @@ Two backends are available via the sidebar:
 
 - Outputs are for research and educational use only — not a substitute for clinical judgement.
 - If the manifest builder doesn't pair files in your Kaggle download, inspect the unpacked
-  folder under `~/.cache/kagglehub/...` and adapt `find_pairs` in `download_data.py`.
+  folder under `~/.cache/kagglehub/...` and adapt `find_pairs` in `data/download_data.py`.

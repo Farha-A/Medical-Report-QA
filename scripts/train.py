@@ -24,8 +24,8 @@ from PIL import Image
 from peft import LoraConfig, get_peft_model
 from torch.utils.data import Dataset
 from transformers import (
-    AutoProcessor,
     AutoModelForImageTextToText,
+    AutoProcessor,
     Trainer,
     TrainingArguments,
 )
@@ -120,6 +120,7 @@ def main() -> None:
 
     if use_cuda:
         from transformers import BitsAndBytesConfig
+
         bnb = BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
