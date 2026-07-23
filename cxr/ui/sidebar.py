@@ -42,7 +42,7 @@ def render_sidebar() -> Settings:
             )
             groq_model = st.text_input(
                 "Groq model",
-                value=os.environ.get("GROQ_MODEL", "meta-llama/llama-4-scout-17b-16e-instruct"),
+                value=os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
                 disabled=not groq_available,
             )
             show_retrieval = st.checkbox(
