@@ -27,23 +27,23 @@ def render_sidebar() -> Settings:
             )
             top_k = st.slider("Top-K findings", 1, 10, 5)
 
-        with st.expander("Groq LLM"):
-            groq_available = bool(os.environ.get("GROQ_API_KEY"))
-            if not groq_available:
-                st.warning("GROQ_API_KEY not set — add it to .env.")
-            use_groq = st.checkbox(
-                "Synthesize report with Groq",
-                value=groq_available,
-                disabled=not groq_available,
+        with st.expander("Gemini LLM"):
+            gemini_available = bool(os.environ.get("GOOGLE_API_KEY"))
+            if not gemini_available:
+                st.warning("GOOGLE_API_KEY not set — add it to .env.")
+            use_gemini = st.checkbox(
+                "Synthesize report with Gemini",
+                value=gemini_available,
+                disabled=not gemini_available,
                 help=(
-                    "Pass retrieved ColPali findings to a Groq LLM for a freeform report. "
-                    "Also used for ColPali QA answers. Requires GROQ_API_KEY in .env."
+                    "Pass retrieved ColPali findings to Gemini for a freeform report. "
+                    "Also used for ColPali QA answers. Requires GOOGLE_API_KEY in .env."
                 ),
             )
-            groq_model = st.text_input(
-                "Groq model",
-                value=os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
-                disabled=not groq_available,
+            gemini_model = st.text_input(
+                "Gemini model",
+                value=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
+                disabled=not gemini_available,
             )
             show_retrieval = st.checkbox(
                 "Show retrieved findings",
@@ -61,8 +61,8 @@ def render_sidebar() -> Settings:
         colpali_id=colpali_id,
         colpali_adapter_path=COLPALI_ADAPTER if use_colpali_adapter else None,
         top_k=top_k,
-        groq_available=groq_available,
-        use_groq=use_groq,
-        groq_model=groq_model,
+        gemini_available=gemini_available,
+        use_gemini=use_gemini,
+        gemini_model=gemini_model,
         show_retrieval=show_retrieval,
     )

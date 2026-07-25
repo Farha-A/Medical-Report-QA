@@ -81,6 +81,6 @@ websockets
 xxhash
 yarl
 colpali-engine>=0.3.13,<0.3.14
-groq
+google-generativeai
 python-dotenv
 scikit-learn

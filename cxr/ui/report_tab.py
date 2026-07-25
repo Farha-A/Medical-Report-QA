@@ -8,7 +8,7 @@ from PIL import Image
 
 from cxr.colpali import colpali_rank, format_retrieval, load_colpali
 from cxr.config import Settings
-from cxr.groq_client import synthesize_with_groq
+from cxr.gemini_client import synthesize_with_gemini
 from cxr.medgemma import load_medgemma, medgemma_generate_stream
 
 
@@ -35,14 +35,14 @@ def render_report_tab(image: Image.Image | None, settings: Settings) -> None:
         with st.spinner("Scoring findings..."):
             ranked = colpali_rank(processor, model, settings.colpali_id, image, settings.top_k)
         retrieved = format_retrieval(ranked)
-        if settings.use_groq:
-            with st.spinner(f"Synthesizing with Groq ({settings.groq_model})..."):
+        if settings.use_gemini:
+            with st.spinner(f"Synthesizing with Gemini ({settings.gemini_model})..."):
                 try:
-                    report = synthesize_with_groq(ranked, settings.groq_model)
+                    report = synthesize_with_gemini(ranked, settings.gemini_model)
                     if settings.show_retrieval:
                         retrieval_to_show = retrieved
                 except Exception as e:
-                    st.warning(f"Groq synthesis failed: {e}. Falling back to retrieved findings.")
+                    st.warning(f"Gemini synthesis failed: {e}. Falling back to retrieved findings.")
                     report = retrieved
         else:
             report = retrieved

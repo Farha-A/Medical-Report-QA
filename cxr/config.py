@@ -71,7 +71,7 @@ class Settings:
     colpali_id: str
     colpali_adapter_path: str | None
     top_k: int
-    groq_available: bool
-    use_groq: bool
-    groq_model: str
+    gemini_available: bool
+    use_gemini: bool
+    gemini_model: str
     show_retrieval: bool

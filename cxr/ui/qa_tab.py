@@ -12,14 +12,14 @@ from cxr.colpali import (
     load_colpali,
 )
 from cxr.config import Settings
-from cxr.groq_client import rag_qa_answer
+from cxr.gemini_client import rag_qa_answer
 from cxr.medgemma import load_medgemma, medgemma_describe
 from cxr.rag import retrieve_qa_pairs
 
 
 def render_qa_tab(image: Image.Image | None, settings: Settings) -> None:
-    if not settings.groq_available:
-        st.warning("GROQ_API_KEY not set — QA requires Groq. Add it to .env.")
+    if not settings.gemini_available:
+        st.warning("GOOGLE_API_KEY not set — QA requires Gemini. Add it to .env.")
         return
 
     if image is None:
@@ -71,8 +71,8 @@ def render_qa_tab(image: Image.Image | None, settings: Settings) -> None:
 
     with st.spinner("Retrieving reference Q/A pairs..."):
         retrieved = retrieve_qa_pairs(prompt)
-    with st.spinner(f"Answering with Groq ({settings.groq_model})..."):
-        answer = rag_qa_answer(image_for_llm, prompt, image_context, retrieved, settings.groq_model)
+    with st.spinner(f"Answering with Gemini ({settings.gemini_model})..."):
+        answer = rag_qa_answer(image_for_llm, prompt, image_context, retrieved, settings.gemini_model)
 
     with st.chat_message("assistant"):
         if overlay is not None:
